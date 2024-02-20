@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -O3  CMakeFiles/diagnostics_test.dir/diagnostics_test.cc.o -o ../../../bin/diagnostics_test  ../src/libbenchmark.a -lrt 

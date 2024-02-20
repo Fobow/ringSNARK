@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/polytools-example.dir/example.cpp.o -o ../../bin/polytools-example  libpolytools.a ../SEAL/lib/libseal-4.1.a 

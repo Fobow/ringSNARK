@@ -35,6 +35,7 @@ ringsnark::protoboard<R> init(size_t N) {
                                        ringsnark::pb_variable<R>());
   vars.allocate(pb, num_variables, "x");
   pb.set_input_sizes(num_input_variables);
+  // this is a polynomial multiplication
   // For (z0, z1, z2) = (x0, x1) * (y0, y1), the variables are arranged as
   // follows: [x0, x1, y0, y1, tmp, z0, z1, z2], with z0 = x0 * y0 tmp = x0 * y1
   // z1 = tmp + (x1 * y0)

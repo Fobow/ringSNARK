@@ -1,4 +1,15 @@
 #include <ringsnark/reductions/r1cs_to_qrp/r1cs_to_qrp.hpp>
+#include <chrono>
+
+using namespace std::chrono;
+
+inline time_point<high_resolution_clock> clock_start() {
+    return high_resolution_clock::now();
+}
+
+inline double time_from(const time_point<high_resolution_clock>& s) {
+    return std::chrono::duration_cast<std::chrono::microseconds>(high_resolution_clock::now() - s).count();
+}
 
 namespace ringsnark::groth16 {
 template <typename RingT, typename EncT>
@@ -73,7 +84,7 @@ proof<RingT, EncT> prover(const proving_key<RingT, EncT> &pk,
 #ifdef DEBUG
   assert(pk.constraint_system.is_satisfied(primary_input, auxiliary_input));
 #endif
-  const bool use_zk = false;
+  const bool use_zk = true;
   if (!use_zk) {
     cout << "[Prover] "
          << "using non-zero-knowledge SNARK" << endl;
@@ -118,9 +129,12 @@ template <typename RingT, typename EncT>
 bool verifier(const verification_key<RingT, EncT> &vk,
               const r1cs_primary_input<RingT> &primary_input,
               const proof<RingT, EncT> &proof) {
+  auto start = clock_start();
   const RingT A = EncT::decode(vk.sk_enc, proof.A),
               B = EncT::decode(vk.sk_enc, proof.B),
               C = EncT::decode(vk.sk_enc, proof.C);
+  long long t = time_from(start);
+  cout << "\033[32m" <<"decode time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
 
   const auto cs = vk.pk.constraint_system;
 

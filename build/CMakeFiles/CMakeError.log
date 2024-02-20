@@ -1,0 +1,109 @@
+Performing C++ SOURCE FILE Test SEAL_MEMSET_S_FOUND failed with the following compile output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e010f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e010f.dir/build.make CMakeFiles/cmTC_e010f.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e010f.dir/src.cxx.o
+/usr/bin/c++ -DSEAL_MEMSET_S_FOUND  -fPIE -o CMakeFiles/cmTC_e010f.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx:7:17: error: ‘memset_s’ was not declared in this scope; did you mean ‘memset’?
+    7 |         int r = memset_s(str, sizeof(str), 'a', 5);
+      |                 ^~~~~~~~
+      |                 memset
+gmake[1]: *** [CMakeFiles/cmTC_e010f.dir/build.make:78: CMakeFiles/cmTC_e010f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e010f/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+    #define __STDC_WANT_LIB_EXT1__ 1
+    #include <string.h>
+    int main(void)
+    {
+        char str[] = "ghghghghghghghghghghgh";
+        int r = memset_s(str, sizeof(str), 'a', 5);
+        return r;
+    }
+Determining if the explicit_memset exist failed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b5674/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b5674.dir/build.make CMakeFiles/cmTC_b5674.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5674.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_b5674.dir/CheckSymbolExists.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘explicit_memset’ undeclared (first use in this function)
+    8 |   return ((int*)(&explicit_memset))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_b5674.dir/build.make:78: CMakeFiles/cmTC_b5674.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b5674/fast] Error 2
+
+
+File /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef explicit_memset
+  return ((int*)(&explicit_memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86930/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86930.dir/build.make CMakeFiles/cmTC_86930.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86930.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_86930.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_86930.dir/build.make:78: CMakeFiles/cmTC_86930.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_86930/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ffab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ffab.dir/build.make CMakeFiles/cmTC_9ffab.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ffab.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654   -wd654 -std=c++11 -o CMakeFiles/cmTC_9ffab.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd654'
+c++: error: unrecognized command line option '-wd654'
+gmake[1]: *** [CMakeFiles/cmTC_9ffab.dir/build.make:78: CMakeFiles/cmTC_9ffab.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9ffab/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73e14/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73e14.dir/build.make CMakeFiles/cmTC_73e14.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73e14.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_73e14.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wthread-safety'
+c++: error: unrecognized command line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_73e14.dir/build.make:78: CMakeFiles/cmTC_73e14.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_73e14/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpolytools.a CMakeFiles/polytools.dir/src/poly_arith.cpp.o
+/usr/bin/ranlib libpolytools.a

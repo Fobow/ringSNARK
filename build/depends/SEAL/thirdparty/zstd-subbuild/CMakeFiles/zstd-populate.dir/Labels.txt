@@ -1,0 +1,14 @@
+# Target labels
+ zstd-populate
+# Source files and their labels
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/CMakeFiles/zstd-populate-complete.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-build.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-configure.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-download.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-install.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-mkdir.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-patch.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-test.rule
+/home/yancheng/code/ringSNARK/build/depends/SEAL/thirdparty/zstd-subbuild/zstd-populate-prefix/src/zstd-populate-stamp/zstd-populate-update.rule

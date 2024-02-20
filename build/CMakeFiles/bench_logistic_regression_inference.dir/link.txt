@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/bench_logistic_regression_inference.dir/benchmarks/bench_logistic_regression_inference.cpp.o -o bin/bench_logistic_regression_inference  depends/SEAL-Polytools/libpolytools.a depends/SEAL/lib/libseal-4.1.a depends/benchmark/src/libbenchmark.a -lrt /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.a 

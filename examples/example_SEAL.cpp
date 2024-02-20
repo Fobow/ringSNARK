@@ -7,6 +7,7 @@
 
 #include "poly_arith.h"
 #include "seal/seal.h"
+// #include "utils.h"
 
 using namespace std;
 using namespace seal;
@@ -15,6 +16,8 @@ int main() {
   EncryptionParameters params(scheme_type::bgv);
   auto poly_modulus_degree = 4096;
   auto inner_poly_modulus_degree = 2 * poly_modulus_degree;
+  // auto poly_modulus_degree = 1024;
+  // auto inner_poly_modulus_degree = 8 * poly_modulus_degree;
 
   params.set_poly_modulus_degree(poly_modulus_degree);
   params.set_coeff_modulus(default_double_batching_modulus(
@@ -56,6 +59,7 @@ int main() {
   // Set values
   vector<ringsnark::seal::RingElem> values(n);
   {
+    auto timer = clock_start();
     auto encoder = BatchEncoder(context);
     auto tables =
         context.get_context_data(context.first_parms_id())->small_ntt_tables();
@@ -63,6 +67,7 @@ int main() {
     vector<uint64_t> vs(N);
     Plaintext ptxt;
     vector<::polytools::SealPoly> polys(n, ::polytools::SealPoly(context));
+
 
     // Inputs
     vs[0] = 2;
@@ -96,7 +101,10 @@ int main() {
     polys[3] = poly;
     values[3] = ringsnark::seal::RingElem(poly);
     //        values[3] = ringsnark::seal::RingElem(vs[3]);
+    long long end = time_from(timer);
+    cout << "\033[32m" <<"encode time:\t" << end / (1000.0) << " ms" << "\033[0m" << endl;
 
+    timer = clock_start();
     // Intermediate values
     vs[5] = vs[2] * vs[3];
     poly = ::polytools::SealPoly(polys[2]);
@@ -113,6 +121,9 @@ int main() {
     polys[4] = poly;
     values[4] = ringsnark::seal::RingElem(poly);
     //        values[4] = ringsnark::seal::RingElem(vs[4]);
+    end = time_from(timer);
+    cout << "\033[32m" <<"compute time:\t" << end / (1000.0) << " ms" << "\033[0m" << endl;
+
   }
   for (size_t i = 0; i < n; i++) {
     pb.val(vars[i]) = values[i];
@@ -125,33 +136,51 @@ int main() {
 
   {
     cout << "=== Rinocchio ===" << endl;
+    auto start1 = clock_start();
     const auto keypair =
         ringsnark::rinocchio::generator<R, E>(pb.get_constraint_system());
+    long long t1 = time_from(start1);
+    cout << "\033[32m" <<"Setup time:\t" << t1 / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of pk:\t" << keypair.pk.size_in_bits() << " bits" << endl;
     cout << "Size of vk:\t" << keypair.vk.size_in_bits() << " bits" << endl;
-
+    
+    auto start2 = clock_start();
     const auto proof = ringsnark::rinocchio::prover(
         keypair.pk, pb.primary_input(), pb.auxiliary_input());
+    long long t2 = time_from(start2);
+    cout << "\033[32m" <<"Prove time:\t" << t2 / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of proof:\t" << proof.size_in_bits() << " bits" << endl;
 
+    auto start3 = clock_start();
     const bool verif =
         ringsnark::rinocchio::verifier(keypair.vk, pb.primary_input(), proof);
+    long long t3 = time_from(start3);
+    cout << "\033[32m" <<"Verify time:\t" << t3 / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Verification passed: " << std::boolalpha << verif << endl;
   }
   {
     cout << "=============" << endl;
     cout << "=== RingGroth16 ===" << endl;
+    auto start = clock_start();
     const auto keypair =
         ringsnark::groth16::generator<R, E>(pb.get_constraint_system());
+    long long t = time_from(start);
+    cout << "\033[32m" <<"Setup time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of pk:\t" << keypair.pk.size_in_bits() << " bits" << endl;
     cout << "Size of vk:\t" << keypair.vk.size_in_bits() << " bits" << endl;
 
+    start = clock_start();
     const auto proof = ringsnark::groth16::prover(
         keypair.pk, pb.primary_input(), pb.auxiliary_input());
+    t = time_from(start);
+    cout << "\033[32m" <<"Prove time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of proof:\t" << proof.size_in_bits() << " bits" << endl;
 
+    start = clock_start();
     const bool verif =
         ringsnark::groth16::verifier(keypair.vk, pb.primary_input(), proof);
+    t = time_from(start);
+    cout << "\033[32m" <<"Verify time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Verification passed: " << std::boolalpha << verif << endl;
   }
 }

@@ -1,0 +1,1461 @@
+The system is: Linux - 5.15.0-58-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/yancheng/code/ringSNARK/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d520d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d520d.dir/build.make CMakeFiles/cmTC_d520d.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccO5paRE.s
+GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 092909160e28bd24f51a09482980c4ba
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccO5paRE.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d520d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d520d.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d520d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d520d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0BxHiq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d520d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d520d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d520d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d520d.dir/build.make CMakeFiles/cmTC_d520d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccO5paRE.s]
+  ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 092909160e28bd24f51a09482980c4ba]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccO5paRE.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d520d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d520d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d520d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d520d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0BxHiq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d520d /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0BxHiq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d520d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_d520d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/yancheng/code/ringSNARK/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83361/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83361.dir/build.make CMakeFiles/cmTC_83361.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKIvSBl.s
+GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c06b418b6d49939739c4e6ad993cce11
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o /tmp/ccKIvSBl.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_83361
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83361.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -o cmTC_83361 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83361' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjLx9bI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83361 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83361' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83361/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83361.dir/build.make CMakeFiles/cmTC_83361.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKIvSBl.s]
+  ignore line: [GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c06b418b6d49939739c4e6ad993cce11]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o /tmp/ccKIvSBl.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_83361]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83361.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -o cmTC_83361 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83361' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjLx9bI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83361 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjLx9bI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_83361] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_83361.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dac08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dac08.dir/build.make CMakeFiles/cmTC_dac08.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dac08.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_dac08.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dac08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac08.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_dac08.dir/src.cxx.o -o cmTC_dac08 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d630/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d630.dir/build.make CMakeFiles/cmTC_1d630.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d630.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_1d630.dir/CheckIncludeFile.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1d630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d630.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1d630.dir/CheckIncludeFile.c.o -o cmTC_1d630 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47791/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47791.dir/build.make CMakeFiles/cmTC_47791.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47791.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_47791.dir/CheckIncludeFile.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47791
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47791.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_47791.dir/CheckIncludeFile.c.o -o cmTC_47791 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52b99/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52b99.dir/build.make CMakeFiles/cmTC_52b99.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52b99.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_52b99.dir/CheckIncludeFile.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52b99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b99.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_52b99.dir/CheckIncludeFile.c.o -o cmTC_52b99 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b124/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b124.dir/build.make CMakeFiles/cmTC_5b124.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b124.dir/OFF64_T.c.o
+/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIE -o CMakeFiles/cmTC_5b124.dir/OFF64_T.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_5b124
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b124.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5b124.dir/OFF64_T.c.o -o cmTC_5b124 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95e29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95e29.dir/build.make CMakeFiles/cmTC_95e29.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95e29.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -fPIE -o CMakeFiles/cmTC_95e29.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95e29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95e29.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko -rdynamic CMakeFiles/cmTC_95e29.dir/CheckFunctionExists.c.o -o cmTC_95e29 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bcd41/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcd41.dir/build.make CMakeFiles/cmTC_bcd41.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bcd41.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_bcd41.dir/CheckIncludeFile.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bcd41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcd41.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bcd41.dir/CheckIncludeFile.c.o -o cmTC_bcd41 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CXX_FLAG_STD_CPLUSPLUS11 succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ef5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ef5f.dir/build.make CMakeFiles/cmTC_8ef5f.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ef5f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_STD_CPLUSPLUS11  -fPIE   -std=c++11 -o CMakeFiles/cmTC_8ef5f.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ef5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ef5f.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8ef5f.dir/src.cxx.o -o cmTC_8ef5f 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_STD_C99 succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a03a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a03a1.dir/build.make CMakeFiles/cmTC_a03a1.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a03a1.dir/src.c.o
+/usr/bin/cc -DC_FLAG_STD_C99  -fPIE   -std=c99 -o CMakeFiles/cmTC_a03a1.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a03a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a03a1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a03a1.dir/src.c.o -o cmTC_a03a1 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WALL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ea59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ea59.dir/build.make CMakeFiles/cmTC_0ea59.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ea59.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WALL  -std=c99  -fPIE   -Wall -o CMakeFiles/cmTC_0ea59.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ea59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ea59.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99  CMakeFiles/cmTC_0ea59.dir/src.c.o -o cmTC_0ea59 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f01b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f01b1.dir/build.make CMakeFiles/cmTC_f01b1.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f01b1.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WALL  -std=c++11  -fPIE   -Wall -o CMakeFiles/cmTC_f01b1.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f01b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f01b1.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11  CMakeFiles/cmTC_f01b1.dir/src.cxx.o -o cmTC_f01b1 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec8b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec8b1.dir/build.make CMakeFiles/cmTC_ec8b1.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec8b1.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WEXTRA  -std=c99 -Wall  -fPIE   -Wextra -o CMakeFiles/cmTC_ec8b1.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ec8b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec8b1.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall  CMakeFiles/cmTC_ec8b1.dir/src.c.o -o cmTC_ec8b1 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5300/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5300.dir/build.make CMakeFiles/cmTC_a5300.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5300.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WEXTRA  -std=c++11 -Wall  -fPIE   -Wextra -o CMakeFiles/cmTC_a5300.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a5300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5300.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -Wall  CMakeFiles/cmTC_a5300.dir/src.cxx.o -o cmTC_a5300 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7446/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7446.dir/build.make CMakeFiles/cmTC_f7446.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7446.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WUNDEF  -std=c99 -Wall -Wextra  -fPIE   -Wundef -o CMakeFiles/cmTC_f7446.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f7446
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7446.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall -Wextra  CMakeFiles/cmTC_f7446.dir/src.c.o -o cmTC_f7446 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WUNDEF succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a28fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a28fb.dir/build.make CMakeFiles/cmTC_a28fb.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a28fb.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WUNDEF  -std=c++11 -Wall -Wextra  -fPIE   -Wundef -o CMakeFiles/cmTC_a28fb.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a28fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a28fb.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -Wall -Wextra  CMakeFiles/cmTC_a28fb.dir/src.cxx.o -o cmTC_a28fb 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27c80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27c80.dir/build.make CMakeFiles/cmTC_27c80.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27c80.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WSHADOW  -std=c99 -Wall -Wextra -Wundef  -fPIE   -Wshadow -o CMakeFiles/cmTC_27c80.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_27c80
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27c80.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall -Wextra -Wundef  CMakeFiles/cmTC_27c80.dir/src.c.o -o cmTC_27c80 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb576/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb576.dir/build.make CMakeFiles/cmTC_bb576.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb576.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WSHADOW  -std=c++11 -Wall -Wextra -Wundef  -fPIE   -Wshadow -o CMakeFiles/cmTC_bb576.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb576.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -Wall -Wextra -Wundef  CMakeFiles/cmTC_bb576.dir/src.cxx.o -o cmTC_bb576 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b7ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b7ca.dir/build.make CMakeFiles/cmTC_3b7ca.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b7ca.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WCAST_ALIGN  -std=c99 -Wall -Wextra -Wundef -Wshadow  -fPIE   -Wcast-align -o CMakeFiles/cmTC_3b7ca.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3b7ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b7ca.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall -Wextra -Wundef -Wshadow  CMakeFiles/cmTC_3b7ca.dir/src.c.o -o cmTC_3b7ca 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_ALIGN succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33446/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33446.dir/build.make CMakeFiles/cmTC_33446.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33446.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WCAST_ALIGN  -std=c++11 -Wall -Wextra -Wundef -Wshadow  -fPIE   -Wcast-align -o CMakeFiles/cmTC_33446.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33446
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33446.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -Wall -Wextra -Wundef -Wshadow  CMakeFiles/cmTC_33446.dir/src.cxx.o -o cmTC_33446 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f9b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f9b5.dir/build.make CMakeFiles/cmTC_2f9b5.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f9b5.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WCAST_QUAL  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align  -fPIE   -Wcast-qual -o CMakeFiles/cmTC_2f9b5.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2f9b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f9b5.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align  CMakeFiles/cmTC_2f9b5.dir/src.c.o -o cmTC_2f9b5 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_FLAG_WCAST_QUAL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc2f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc2f2.dir/build.make CMakeFiles/cmTC_bc2f2.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc2f2.dir/src.cxx.o
+/usr/bin/c++ -DCXX_FLAG_WCAST_QUAL  -std=c++11 -Wall -Wextra -Wundef -Wshadow -Wcast-align  -fPIE   -Wcast-qual -o CMakeFiles/cmTC_bc2f2.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bc2f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc2f2.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -Wall -Wextra -Wundef -Wshadow -Wcast-align  CMakeFiles/cmTC_bc2f2.dir/src.cxx.o -o cmTC_bc2f2 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_FLAG_WSTRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e1c2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e1c2.dir/build.make CMakeFiles/cmTC_1e1c2.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e1c2.dir/src.c.o
+/usr/bin/cc -DC_FLAG_WSTRICT_PROTOTYPES  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_1e1c2.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e1c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e1c2.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c99 -Wall -Wextra -Wundef -Wshadow -Wcast-align -Wcast-qual  CMakeFiles/cmTC_1e1c2.dir/src.c.o -o cmTC_1e1c2 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.5.0-1ubuntu1~22.04) 9.5.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the include file x86intrin.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_090ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_090ed.dir/build.make CMakeFiles/cmTC_090ed.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_090ed.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++   -fPIE -o CMakeFiles/cmTC_090ed.dir/CheckIncludeFile.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_090ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_090ed.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_090ed.dir/CheckIncludeFile.cxx.o -o cmTC_090ed 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of __int128 passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f400/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f400.dir/build.make CMakeFiles/cmTC_3f400.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f400.dir/INT128.cpp.o
+/usr/bin/c++   -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_3f400.dir/INT128.cpp.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CheckTypeSize/INT128.cpp
+Linking CXX executable cmTC_3f400
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f400.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_3f400.dir/INT128.cpp.o -o cmTC_3f400 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test SEAL___BUILTIN_CLZLL_FOUND succeeded with the following compile output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91dc7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91dc7.dir/build.make CMakeFiles/cmTC_91dc7.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_91dc7.dir/src.cxx.o
+/usr/bin/c++ -DSEAL___BUILTIN_CLZLL_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_91dc7.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_91dc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91dc7.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_91dc7.dir/src.cxx.o -o cmTC_91dc7 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+            int main() {
+                volatile auto res = __builtin_clzll(0);
+                return 0;
+            }
+Performing C++ SOURCE FILE Test SEAL__ADDCARRY_U64_FOUND succeeded with the following compile output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f57c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f57c1.dir/build.make CMakeFiles/cmTC_f57c1.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f57c1.dir/src.cxx.o
+/usr/bin/c++ -DSEAL__ADDCARRY_U64_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_f57c1.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f57c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f57c1.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_f57c1.dir/src.cxx.o -o cmTC_f57c1 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <x86intrin.h>
+        int main() {
+            unsigned long long a;
+            volatile auto res = _addcarry_u64(0,0,0,&a);
+            return 0;
+        }
+Performing C++ SOURCE FILE Test SEAL__SUBBORROW_U64_FOUND succeeded with the following compile output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_466c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_466c3.dir/build.make CMakeFiles/cmTC_466c3.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_466c3.dir/src.cxx.o
+/usr/bin/c++ -DSEAL__SUBBORROW_U64_FOUND  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_466c3.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_466c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_466c3.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_466c3.dir/src.cxx.o -o cmTC_466c3 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+        #include <x86intrin.h>
+        int main() {
+            unsigned long long a;
+            volatile auto res = _subborrow_u64(0,0,0,&a);
+            return 0;
+        }
+Determining if the explicit_bzero exist passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1eb03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1eb03.dir/build.make CMakeFiles/cmTC_1eb03.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1eb03.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_1eb03.dir/CheckSymbolExists.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1eb03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1eb03.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1eb03.dir/CheckSymbolExists.c.o -o cmTC_1eb03 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+File /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef explicit_bzero
+  return ((int*)(&explicit_bzero))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3363/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3363.dir/build.make CMakeFiles/cmTC_d3363.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3363.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d3363.dir/CheckIncludeFile.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d3363
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3363.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d3363.dir/CheckIncludeFile.c.o -o cmTC_d3363 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb33e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb33e.dir/build.make CMakeFiles/cmTC_bb33e.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb33e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_bb33e.dir/src.c.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bb33e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb33e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bb33e.dir/src.c.o -o cmTC_bb33e 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86356/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86356.dir/build.make CMakeFiles/cmTC_86356.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86356.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_86356.dir/CheckFunctionExists.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_86356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86356.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_86356.dir/CheckFunctionExists.cxx.o -o cmTC_86356  -lrt 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4ac7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4ac7.dir/build.make CMakeFiles/cmTC_b4ac7.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4ac7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall   -Wall -std=c++11 -o CMakeFiles/cmTC_b4ac7.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b4ac7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4ac7.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall CMakeFiles/cmTC_b4ac7.dir/src.cxx.o -o cmTC_b4ac7 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7131e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7131e.dir/build.make CMakeFiles/cmTC_7131e.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7131e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra   -Wextra -std=c++11 -o CMakeFiles/cmTC_7131e.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7131e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7131e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_7131e.dir/src.cxx.o -o cmTC_7131e 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea31b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea31b.dir/build.make CMakeFiles/cmTC_ea31b.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea31b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow   -Wshadow -std=c++11 -o CMakeFiles/cmTC_ea31b.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ea31b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea31b.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_ea31b.dir/src.cxx.o -o cmTC_ea31b 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e96f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e96f1.dir/build.make CMakeFiles/cmTC_e96f1.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e96f1.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_e96f1.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e96f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96f1.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_e96f1.dir/src.cxx.o -o cmTC_e96f1 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d22de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d22de.dir/build.make CMakeFiles/cmTC_d22de.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d22de.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror   -Werror -std=c++11 -o CMakeFiles/cmTC_d22de.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d22de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d22de.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror CMakeFiles/cmTC_d22de.dir/src.cxx.o -o cmTC_d22de 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc0e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc0e9.dir/build.make CMakeFiles/cmTC_cc0e9.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc0e9.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic   -pedantic -std=c++11 -o CMakeFiles/cmTC_cc0e9.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc0e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc0e9.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic CMakeFiles/cmTC_cc0e9.dir/src.cxx.o -o cmTC_cc0e9 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98adc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98adc.dir/build.make CMakeFiles/cmTC_98adc.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98adc.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_98adc.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_98adc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98adc.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors CMakeFiles/cmTC_98adc.dir/src.cxx.o -o cmTC_98adc 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b7f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b7f2.dir/build.make CMakeFiles/cmTC_3b7f2.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b7f2.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_3b7f2.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3b7f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b7f2.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_3b7f2.dir/src.cxx.o -o cmTC_3b7f2 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52660/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52660.dir/build.make CMakeFiles/cmTC_52660.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52660.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_52660.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52660.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_52660.dir/src.cxx.o -o cmTC_52660 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4a85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4a85.dir/build.make CMakeFiles/cmTC_e4a85.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4a85.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated   -Wno-deprecated -std=c++11 -o CMakeFiles/cmTC_e4a85.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e4a85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4a85.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_e4a85.dir/src.cxx.o -o cmTC_e4a85 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0795/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0795.dir/build.make CMakeFiles/cmTC_e0795.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0795.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_e0795.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0795
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0795.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_e0795.dir/src.cxx.o -o cmTC_e0795 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83d8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83d8d.dir/build.make CMakeFiles/cmTC_83d8d.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83d8d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage   --coverage -std=c++11 -o CMakeFiles/cmTC_83d8d.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_83d8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83d8d.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_83d8d.dir/src.cxx.o -o cmTC_83d8d 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_O3_FLAG succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50327/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50327.dir/build.make CMakeFiles/cmTC_50327.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50327.dir/src.cxx.o
+/usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing    -O3 -std=c++11 -o CMakeFiles/cmTC_50327.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50327.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_50327.dir/src.cxx.o -o cmTC_50327 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_ODR succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3bc49/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bc49.dir/build.make CMakeFiles/cmTC_3bc49.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bc49.dir/src.cxx.o
+/usr/bin/c++ -DBENCHMARK_HAS_WNO_ODR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing    -Wno-odr -std=c++11 -o CMakeFiles/cmTC_3bc49.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3bc49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bc49.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_3bc49.dir/src.cxx.o -o cmTC_3bc49 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test BENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3fd26/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3fd26.dir/build.make CMakeFiles/cmTC_3fd26.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3fd26.dir/src.cxx.o
+/usr/bin/c++ -DBENCHMARK_HAS_WNO_LTO_TYPE_MISMATCH  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing    -Wno-lto-type-mismatch -std=c++11 -o CMakeFiles/cmTC_3fd26.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3fd26
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fd26.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_3fd26.dir/src.cxx.o -o cmTC_3fd26 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c20bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c20bb.dir/build.make CMakeFiles/cmTC_c20bb.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/yancheng/code/ringSNARK/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3gWFje.s
+GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 092909160e28bd24f51a09482980c4ba
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o /tmp/cc3gWFje.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_c20bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c20bb.dir/link.txt --verbose=1
+/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -o cmTC_c20bb  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c20bb' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJffcL5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c20bb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c20bb' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c20bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c20bb.dir/build.make CMakeFiles/cmTC_c20bb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/yancheng/code/ringSNARK/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3gWFje.s]
+  ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.5.0-1ubuntu1~22.04) version 9.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 092909160e28bd24f51a09482980c4ba]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o /tmp/cc3gWFje.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_c20bb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c20bb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -o cmTC_c20bb  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.5.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-5Q4PKF/gcc-9-9.5.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.5.0 (Ubuntu 9.5.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_c20bb' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJffcL5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c20bb /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJffcL5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c20bb] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_c20bb.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: []
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03f0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03f0e.dir/build.make CMakeFiles/cmTC_03f0e.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03f0e.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_03f0e.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03f0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03f0e.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_03f0e.dir/src.cxx.o -o cmTC_03f0e 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_24b8f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24b8f.dir/build.make CMakeFiles/cmTC_24b8f.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_24b8f.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_24b8f.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_24b8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24b8f.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_24b8f.dir/src.cxx.o -o cmTC_24b8f 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe998/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe998.dir/build.make CMakeFiles/cmTC_fe998.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe998.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_fe998.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fe998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe998.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_fe998.dir/src.cxx.o -o cmTC_fe998 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }
+Performing C++ SOURCE FILE Test USE_STD_FOR_EACH_N succeeded with the following output:
+Change Dir: /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a80c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a80c.dir/build.make CMakeFiles/cmTC_6a80c.dir/build
+gmake[1]: Entering directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a80c.dir/src.cxx.o
+/usr/bin/c++ -DUSE_STD_FOR_EACH_N  -O0 -std=c++17 -fPIE -o CMakeFiles/cmTC_6a80c.dir/src.cxx.o -c /home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6a80c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a80c.dir/link.txt --verbose=1
+/usr/bin/c++   -O0 -std=c++17 CMakeFiles/cmTC_6a80c.dir/src.cxx.o -o cmTC_6a80c 
+gmake[1]: Leaving directory '/home/yancheng/code/ringSNARK/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+            #include <algorithm>
+            int main() {
+                int a[1]{ 0 };
+                volatile auto fun = std::for_each_n(a, 1, [](auto b) {});
+                return 0;
+            }

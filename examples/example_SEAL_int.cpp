@@ -7,6 +7,7 @@
 
 #include "poly_arith.h"
 #include "seal/seal.h"
+#include "utils.h"
 
 using namespace std;
 using namespace seal;
@@ -121,33 +122,52 @@ int main() {
 
   {
     cout << "=== Rinocchio ===" << endl;
+    auto start = clock_start();
     const auto keypair =
         ringsnark::rinocchio::generator<R, E>(pb.get_constraint_system());
+    long long t = time_from(start);
+    cout << "\033[32m" <<"Setup time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of pk:\t" << keypair.pk.size_in_bits() << " bits" << endl;
     cout << "Size of vk:\t" << keypair.vk.size_in_bits() << " bits" << endl;
 
+    start = clock_start();
     const auto proof = ringsnark::rinocchio::prover(
         keypair.pk, pb.primary_input(), pb.auxiliary_input());
+    t = time_from(start);
+    cout << "\033[32m" <<"Prove time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of proof:\t" << proof.size_in_bits() << " bits" << endl;
 
+
+    start = clock_start();
     const bool verif =
         ringsnark::rinocchio::verifier(keypair.vk, pb.primary_input(), proof);
+    t = time_from(start);
+    cout << "\033[32m" <<"Verify time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Verification passed: " << std::boolalpha << verif << endl;
   }
   {
     cout << "=============" << endl;
     cout << "=== RingGroth16 ===" << endl;
+    auto start = clock_start();
     const auto keypair =
         ringsnark::groth16::generator<R, E>(pb.get_constraint_system());
+    long long t = time_from(start);
+    cout << "\033[32m" <<"Setup time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of pk:\t" << keypair.pk.size_in_bits() << " bits" << endl;
     cout << "Size of vk:\t" << keypair.vk.size_in_bits() << " bits" << endl;
 
+    start = clock_start();
     const auto proof = ringsnark::groth16::prover(
         keypair.pk, pb.primary_input(), pb.auxiliary_input());
+    t = time_from(start);
+    cout << "\033[32m" <<"Prove time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Size of proof:\t" << proof.size_in_bits() << " bits" << endl;
 
+    start = clock_start();
     const bool verif =
         ringsnark::groth16::verifier(keypair.vk, pb.primary_input(), proof);
+    t = time_from(start);
+    cout << "\033[32m" <<"Verify time:\t" << t / (1000.0) << " ms" << "\033[0m" << endl;
     cout << "Verification passed: " << std::boolalpha << verif << endl;
   }
 }
